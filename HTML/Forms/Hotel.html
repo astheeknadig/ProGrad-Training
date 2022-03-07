@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel ABC .Ltd</title>
+</head>
+<body>
+    <hr>
+    <h1>Welcome to ABC Hotel registration page</h1>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+                Name: <input type="text" value="" placeholder="Your Name"> <br> <br>
+                Age: <input type="text" value="" placeholder="Your Age" maxlength="3"> <br> <br>
+                Mobile No.: <input type="text" value="" placeholder="Your Mobile no." maxlength="10"> <br> <br>
+                e-mail: <input type="text" value="" placeholder="Your Email-id"> <br> <br>
+                Address: <textarea name="address" rows="10" cols="30" placeholder="Your Address"></textarea><br> <br>
+                Purpose: <input type="text" value="" placeholder="Your purpose of visit"> <br> <br>
+                <button type="button">Save & Continue</button>
+        </fieldset><br>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend><b>Booking Details</b></legend>
+            Date of Check-in: <input type="date" name="check-in" id="">
+            Date of Check-out: <input type="date" name="" id="">
+            <br> <br>
+            Select room type: <input list="itinary">
+            <datalist id="itinary">
+            <option value="Indoor Room">
+            <option value="Outside view Room">
+            <option value="Sea view Room">
+            <option value="Family Suite">
+            <option value="Royal Suite">
+            </datalist>
+            <label for="nrooms">No. of Rooms: </label>
+            <select id="" name="nrooms">
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+            </select>
+            <input type="button" value="Check avaiability">
+            <br><br>
+            <input type="radio" id="" name="trip" value="Family Trip">
+            Family Trip
+            <input type="radio" id="" name="trip" value="Bussiness Trip">
+            Business Trip <br><br>
+            <label for="">Book Facilities: </label>
+            <select name="" id="" multiple size="3">
+            <option value="Gym">Gym</option>
+            <option value="Spa">Spa</option>
+            <option value="Conference Room">Conference Room </option>
+            <option value="Beverage Corner">Beverage Corner</option>
+            <option value="DJ Night">DJ Night</option>
+            <option value="Cab">Cab</option>
+            <option value="Personal Buttler">Personal Buttler</option>
+            </select>
+
+
+            
+    </fieldset><hr><br>
+    </form>
+    
+
+    <form action="">
+         <input type="checkbox" name="" id="">Agree for Terms & Conditions
+    </form>
+    <br>
+    <form action="">
+        <input type="button" value="Confirm Booking">
+    </form>
+<hr>
+</body>
+</html>
