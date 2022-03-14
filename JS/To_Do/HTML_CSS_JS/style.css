@@ -1,0 +1,10 @@
+#opts{
+    display: flex;
+    gap: 10px;
+}
+
+
+#items{
+    margin-top: -10px;
+    list-style: none;
+}
